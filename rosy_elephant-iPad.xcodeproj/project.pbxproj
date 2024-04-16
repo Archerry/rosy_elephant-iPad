@@ -16,6 +16,9 @@
 		33BA11D12BCE4453008166A8 /* rosy_elephant_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11D02BCE4453008166A8 /* rosy_elephant_iPadTests.swift */; };
 		33BA11DB2BCE4453008166A8 /* rosy_elephant_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11DA2BCE4453008166A8 /* rosy_elephant_iPadUITests.swift */; };
 		33BA11DD2BCE4453008166A8 /* rosy_elephant_iPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11DC2BCE4453008166A8 /* rosy_elephant_iPadUITestsLaunchTests.swift */; };
+		3A9463B16F2696657C48AF87 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E12D080AD85808A022EA30 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework */; };
+		56EB957620DB741782A9FE1E /* Pods_rosy_elephant_iPadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7B2B221D32EA6ED630FBB0 /* Pods_rosy_elephant_iPadTests.framework */; };
+		BC69B5057E88B029507244F4 /* Pods_rosy_elephant_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E1D1B69460094D8D4F9EE3 /* Pods_rosy_elephant_iPad.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1076B619CFE5FB5E14F1FD05 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.release.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C2FCC8FB72DF989F4E97DF6 /* Pods-rosy_elephant-iPadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPadTests.debug.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPadTests/Pods-rosy_elephant-iPadTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33BA11B62BCE4452008166A8 /* rosy_elephant-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rosy_elephant-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BA11B92BCE4452008166A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33BA11BB2BCE4452008166A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		33BA11D62BCE4453008166A8 /* rosy_elephant-iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rosy_elephant-iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BA11DA2BCE4453008166A8 /* rosy_elephant_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosy_elephant_iPadUITests.swift; sourceTree = "<group>"; };
 		33BA11DC2BCE4453008166A8 /* rosy_elephant_iPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosy_elephant_iPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F375748642C8FF088D9EECB /* Pods-rosy_elephant-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPad.release.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPad/Pods-rosy_elephant-iPad.release.xcconfig"; sourceTree = "<group>"; };
+		63E1D1B69460094D8D4F9EE3 /* Pods_rosy_elephant_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rosy_elephant_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF2BD7B32D1128DBBAF4E67 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7725BF2308799F6CFE9F7763 /* Pods-rosy_elephant-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPad.debug.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPad/Pods-rosy_elephant-iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		CA0B2775016B8455ACA6F1FA /* Pods-rosy_elephant-iPadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPadTests.release.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPadTests/Pods-rosy_elephant-iPadTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA7B2B221D32EA6ED630FBB0 /* Pods_rosy_elephant_iPadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rosy_elephant_iPadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E12D080AD85808A022EA30 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC69B5057E88B029507244F4 /* Pods_rosy_elephant_iPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EB957620DB741782A9FE1E /* Pods_rosy_elephant_iPadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9463B16F2696657C48AF87 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157B1E8F5F8F8D7836981164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E1D1B69460094D8D4F9EE3 /* Pods_rosy_elephant_iPad.framework */,
+				F0E12D080AD85808A022EA30 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework */,
+				EA7B2B221D32EA6ED630FBB0 /* Pods_rosy_elephant_iPadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		33BA11AD2BCE4452008166A8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				33BA11CF2BCE4453008166A8 /* rosy_elephant-iPadTests */,
 				33BA11D92BCE4453008166A8 /* rosy_elephant-iPadUITests */,
 				33BA11B72BCE4452008166A8 /* Products */,
+				B7BC5CC678FF8DF2B0B4E994 /* Pods */,
+				157B1E8F5F8F8D7836981164 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = "rosy_elephant-iPadUITests";
 			sourceTree = "<group>";
 		};
+		B7BC5CC678FF8DF2B0B4E994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7725BF2308799F6CFE9F7763 /* Pods-rosy_elephant-iPad.debug.xcconfig */,
+				5F375748642C8FF088D9EECB /* Pods-rosy_elephant-iPad.release.xcconfig */,
+				6AF2BD7B32D1128DBBAF4E67 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig */,
+				1076B619CFE5FB5E14F1FD05 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.release.xcconfig */,
+				1C2FCC8FB72DF989F4E97DF6 /* Pods-rosy_elephant-iPadTests.debug.xcconfig */,
+				CA0B2775016B8455ACA6F1FA /* Pods-rosy_elephant-iPadTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BA11E02BCE4453008166A8 /* Build configuration list for PBXNativeTarget "rosy_elephant-iPad" */;
 			buildPhases = (
+				2A12AC533E0673A24DA57A2D /* [CP] Check Pods Manifest.lock */,
 				33BA11B22BCE4452008166A8 /* Sources */,
 				33BA11B32BCE4452008166A8 /* Frameworks */,
 				33BA11B42BCE4452008166A8 /* Resources */,
+				C82C3B8D13592EBFD9323C6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BA11E32BCE4453008166A8 /* Build configuration list for PBXNativeTarget "rosy_elephant-iPadTests" */;
 			buildPhases = (
+				38983CE15F794ABD73F8EBF3 /* [CP] Check Pods Manifest.lock */,
 				33BA11C82BCE4453008166A8 /* Sources */,
 				33BA11C92BCE4453008166A8 /* Frameworks */,
 				33BA11CA2BCE4453008166A8 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33BA11E62BCE4453008166A8 /* Build configuration list for PBXNativeTarget "rosy_elephant-iPadUITests" */;
 			buildPhases = (
+				B54B5344C1C22C79B91E5A66 /* [CP] Check Pods Manifest.lock */,
 				33BA11D22BCE4453008166A8 /* Sources */,
 				33BA11D32BCE4453008166A8 /* Frameworks */,
 				33BA11D42BCE4453008166A8 /* Resources */,
+				178226E145B7C6DD3F45A14A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		178226E145B7C6DD3F45A14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A12AC533E0673A24DA57A2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rosy_elephant-iPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38983CE15F794ABD73F8EBF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rosy_elephant-iPadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54B5344C1C22C79B91E5A66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C82C3B8D13592EBFD9323C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rosy_elephant-iPad/Pods-rosy_elephant-iPad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rosy_elephant-iPad/Pods-rosy_elephant-iPad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rosy_elephant-iPad/Pods-rosy_elephant-iPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33BA11B22BCE4452008166A8 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		33BA11E12BCE4453008166A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7725BF2308799F6CFE9F7763 /* Pods-rosy_elephant-iPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +615,7 @@
 		};
 		33BA11E22BCE4453008166A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F375748642C8FF088D9EECB /* Pods-rosy_elephant-iPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +644,7 @@
 		};
 		33BA11E42BCE4453008166A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2FCC8FB72DF989F4E97DF6 /* Pods-rosy_elephant-iPadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +665,7 @@
 		};
 		33BA11E52BCE4453008166A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0B2775016B8455ACA6F1FA /* Pods-rosy_elephant-iPadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +686,7 @@
 		};
 		33BA11E72BCE4453008166A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF2BD7B32D1128DBBAF4E67 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +705,7 @@
 		};
 		33BA11E82BCE4453008166A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1076B619CFE5FB5E14F1FD05 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
