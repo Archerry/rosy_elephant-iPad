@@ -16,6 +16,8 @@
 		33BA11D12BCE4453008166A8 /* rosy_elephant_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11D02BCE4453008166A8 /* rosy_elephant_iPadTests.swift */; };
 		33BA11DB2BCE4453008166A8 /* rosy_elephant_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11DA2BCE4453008166A8 /* rosy_elephant_iPadUITests.swift */; };
 		33BA11DD2BCE4453008166A8 /* rosy_elephant_iPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11DC2BCE4453008166A8 /* rosy_elephant_iPadUITestsLaunchTests.swift */; };
+		33BA11EB2BCE4D5E008166A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA11EA2BCE4D5E008166A8 /* LaunchScreen.storyboard */; };
+		33BA11F02BCE5058008166A8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA11EF2BCE5058008166A8 /* Home.swift */; };
 		3A9463B16F2696657C48AF87 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E12D080AD85808A022EA30 /* Pods_rosy_elephant_iPad_rosy_elephant_iPadUITests.framework */; };
 		56EB957620DB741782A9FE1E /* Pods_rosy_elephant_iPadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7B2B221D32EA6ED630FBB0 /* Pods_rosy_elephant_iPadTests.framework */; };
 		BC69B5057E88B029507244F4 /* Pods_rosy_elephant_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E1D1B69460094D8D4F9EE3 /* Pods_rosy_elephant_iPad.framework */; };
@@ -54,6 +56,8 @@
 		33BA11D62BCE4453008166A8 /* rosy_elephant-iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rosy_elephant-iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BA11DA2BCE4453008166A8 /* rosy_elephant_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosy_elephant_iPadUITests.swift; sourceTree = "<group>"; };
 		33BA11DC2BCE4453008166A8 /* rosy_elephant_iPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosy_elephant_iPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33BA11EA2BCE4D5E008166A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33BA11EF2BCE5058008166A8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		5F375748642C8FF088D9EECB /* Pods-rosy_elephant-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPad.release.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPad/Pods-rosy_elephant-iPad.release.xcconfig"; sourceTree = "<group>"; };
 		63E1D1B69460094D8D4F9EE3 /* Pods_rosy_elephant_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rosy_elephant_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF2BD7B32D1128DBBAF4E67 /* Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig"; path = "Target Support Files/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests/Pods-rosy_elephant-iPad-rosy_elephant-iPadUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 		33BA11B82BCE4452008166A8 /* rosy_elephant-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				33BA11EC2BCE5026008166A8 /* Home */,
+				33BA11E92BCE4D3B008166A8 /* launch */,
 				33BA11B92BCE4452008166A8 /* AppDelegate.swift */,
 				33BA11BB2BCE4452008166A8 /* SceneDelegate.swift */,
 				33BA11BD2BCE4452008166A8 /* ViewController.swift */,
@@ -154,6 +160,22 @@
 			path = "rosy_elephant-iPadUITests";
 			sourceTree = "<group>";
 		};
+		33BA11E92BCE4D3B008166A8 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				33BA11EA2BCE4D5E008166A8 /* LaunchScreen.storyboard */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		33BA11EC2BCE5026008166A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				33BA11EF2BCE5058008166A8 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		B7BC5CC678FF8DF2B0B4E994 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +186,6 @@
 				1C2FCC8FB72DF989F4E97DF6 /* Pods-rosy_elephant-iPadTests.debug.xcconfig */,
 				CA0B2775016B8455ACA6F1FA /* Pods-rosy_elephant-iPadTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BA11C32BCE4453008166A8 /* Assets.xcassets in Resources */,
+				33BA11EB2BCE4D5E008166A8 /* LaunchScreen.storyboard in Resources */,
 				33BA11C62BCE4453008166A8 /* Base in Resources */,
 				33BA11C12BCE4452008166A8 /* Base in Resources */,
 			);
@@ -409,6 +431,7 @@
 			files = (
 				33BA11BE2BCE4452008166A8 /* ViewController.swift in Sources */,
 				33BA11BA2BCE4452008166A8 /* AppDelegate.swift in Sources */,
+				33BA11F02BCE5058008166A8 /* Home.swift in Sources */,
 				33BA11BC2BCE4452008166A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,16 +613,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U2KG35WPES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rosy_elephant-iPad/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,6 +636,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Debug;
 		};
@@ -619,16 +646,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U2KG35WPES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rosy_elephant-iPad/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,6 +669,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};
